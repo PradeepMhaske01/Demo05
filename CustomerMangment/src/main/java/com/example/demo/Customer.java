@@ -7,6 +7,9 @@ public class Customer {
 	private int id;
 	private int age;
 	public String getName() {
+
+
+		
 		return name;
 	}
 	public void setName(String name) {
