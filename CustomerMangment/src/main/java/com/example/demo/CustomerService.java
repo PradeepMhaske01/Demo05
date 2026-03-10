@@ -4,6 +4,8 @@ public class CustomerService {
 	
    String savedataIndb(Customer c){
 	   if(c.getId()<100) {
+
+		
 		   return c.getName()+ "not allowed to add";
 	   }
 		
